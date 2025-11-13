@@ -9,11 +9,11 @@ url: "https://lichess.org/"      # Lichess base URL
 # Engine Settings
 # ==============================
 engine:
-  dir: "./engines/"              # Path to engine binaries
-  name: "stockfish"              # Binary name of the engine
-  protocol: "uci"                # UCI engine
-  ponder: true                   # Let engine think on opponent's time
-  working_dir: ""                # Leave empty to use current directory
+  name: Stockfish
+  cmd: ./stockfish/stockfish
+  workingDir: ./stockfish
+  protocol: uci
+  ponder: true
 
   polyglot:
     enabled: true
