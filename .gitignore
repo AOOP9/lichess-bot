@@ -10,3 +10,6 @@ lichess_bot_auto_logs/*
 *.txt
 TEMP/*
 stockfish/
+__pycache__/
+*.pyc
+.env
